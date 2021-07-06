@@ -13,12 +13,14 @@ h2{
 } 
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
-    width:50% ;        
+    width:50% ; 
+    padding-left:15%;       
 }
 .half-width img{
-    width:70%;
+    width:50%;
 }
 .link-button{
     text-decoration: none;    
@@ -26,4 +28,9 @@ section{
     padding: 18px 30px ;
     color:white ;
     font-weight:700 ;
-    border-radius: 50px;
+    border-radius: 50px;}
+
+.about-me{
+    background-image: url(images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+}
